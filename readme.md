@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="images/Dune.png" alt="HAR Logo" width="80px" height="80px">
+  <img src="images/dune.png" alt="Dune Project Logo" width="80px" height="80px">
 </p>
 <h1 align="center">Dune Project</h1>
 
@@ -7,7 +7,6 @@ Dune project is an automated way to publish Dune Quote artwork on Redbubble with
 
 
 ## How it works?
----
 The script will send a `GET` request to [Dune API](https://github.com/ywalia01/dune-api).
 
 We will get a random quote from Dune Movies.
@@ -18,12 +17,12 @@ After that, you will find your image in the root folder of the project.
 
 
 ## Installation
----
-`npm install`
 
-`npm tailwind:css`
+```npm install```
 
-`npm start`
+```npm tailwind:css```
+
+```npm start```
 
 **IMPORTANT** : You have to create a `.env` file and see the example from `.env.example`. You have to fill in with your API keys. 
 
@@ -57,9 +56,9 @@ axios.get(encodeURI('https://img.bruzu.com/?apiKey='+process.env.API_KEY_BRUZU+'
 
 ## Example
 ---
-
-![Example](images/output.png)
-
+<p align="center"> 
+  <img src="images/output.png" alt="Dune Project Example" width="500px">
+</p>
 
 ## Todo
 ---
