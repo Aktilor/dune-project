@@ -17,7 +17,6 @@ After that, you will find your image in the root folder of the project.
 
 
 ## Installation
-
 ```npm install```
 
 ```npm tailwind:css```
@@ -32,8 +31,6 @@ API_KEY_BRUZU=YOUR-BRUZU-API-KEY
 
 
 ## Usage
----
-
 Go to `localhost:3000/quote` to generate a quote with a beautiful background and cool font 😎
 
 You can modify the Bruzu URL in `routes/quote.js` file, to change fonts, colors, positions...
@@ -55,17 +52,15 @@ axios.get(encodeURI('https://img.bruzu.com/?apiKey='+process.env.API_KEY_BRUZU+'
 
 
 ## Example
----
 <p align="center"> 
   <img src="images/output.png" alt="Dune Project Example" width="500px">
 </p>
 
+
 ## Todo
----
 * Add the auto publish on Redbubble
 * Add possibility to enter Unsplash URL for background
 
 
 ## Author
----
 Aktilor - 2021
