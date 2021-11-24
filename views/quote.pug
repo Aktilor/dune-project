@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body(class="container mx-auto flex justify-center items-center flex-col h-screen")
+    block content
+        h1(class="text-5xl font-bold flex") Dune Quote 🏜
+        p(class="px-4 lg:w-1/2")
+            i #{quote}
