@@ -17,11 +17,16 @@ After that, you will find your image in the root folder of the project.
 
 
 ## Installation
-```npm install```
+```bash
+# Install
+npm install
 
-```npm tailwind:css```
+# Import Tailwind
+npm tailwind:css
 
-```npm start```
+# Start project
+npm start
+```
 
 **IMPORTANT** : You have to create a `.env` file and see the example from `.env.example`. You have to fill in with your API keys. 
 
